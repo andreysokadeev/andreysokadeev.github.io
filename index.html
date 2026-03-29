@@ -37,9 +37,14 @@
       color: #4b5563;
       margin-bottom: 24px;
     }
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
     .button {
       display: inline-block;
-      margin-top: 20px;
       padding: 12px 20px;
       background: #111827;
       color: white;
@@ -50,26 +55,31 @@
     .button:hover {
       opacity: 0.9;
     }
+    .secondary {
+      background: #374151;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Andrey Sokadeev</h1>
-    <p class="headline">Technical Sales & Account Management Professional | Industrial, HVAC, Flow Control | Winnipeg, Manitoba</p>
+    <p class="headline">Technical Sales & Account Management | Industrial, HVAC, Flow Control | Winnipeg, Manitoba</p>
 
     <h2>About</h2>
     <p>
-      I am a technical sales and account management professional with 15+ years of experience across industrial,
-      HVAC, flow control, steam systems, and mechanical process equipment markets. My background includes territory
-      development, specification-driven sales, contractor and consulting engineer relationships, and long-term account growth.
+      Technical sales and account management professional with 15+ years of experience across industrial, HVAC, flow control, steam systems, and mechanical process equipment markets.
     </p>
-
     <p>
-      I work with customers and partners across industrial and infrastructure environments, helping identify practical
-      solutions that improve performance, reliability, and lifecycle value.
+      Background includes territory development, specification-driven sales, contractor and consulting engineer relationships, and long-term account growth.
+    </p>
+    <p>
+      Focused on helping customers identify practical solutions that improve performance, reliability, and lifecycle value.
     </p>
 
-    <a class="button" href="https://www.linkedin.com/in/andreysokadeev/" target="_blank">View LinkedIn Profile</a>
+    <div class="buttons">
+      <a class="button" href="https://www.linkedin.com/in/andreysokadeev/" target="_blank">LinkedIn</a>
+      <a class="button secondary" href="https://andreysokadeev.substack.com/" target="_blank">Substack</a>
+    </div>
   </div>
 </body>
 </html>
